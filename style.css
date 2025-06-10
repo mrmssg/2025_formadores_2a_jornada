@@ -4,3 +4,12 @@ body{
     font-family: Roboto;
     text-align: center;
     }
+    h2{
+        color: orange;
+    }
+    header{
+        border-bottom: 1.5px solid gray;
+    }
+    footer{
+        border-top: 1.5px soliod gray ;
+    }
