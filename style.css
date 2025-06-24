@@ -1,15 +1,36 @@
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+h2{
+    color:orange
+}
 body{
     background-color: #305050;
     color: white;
     font-family: Roboto;
     text-align: center;
     }
-    h2{
-        color: orange;
+header{
+        border-bottom: 1px solid grey;
     }
-    header{
-        border-bottom: 1.5px solid gray;
-    }
-    footer{
-        border-top: 1.5px soliod gray ;
-    }
+footer{
+    border-top: 1px solid grey;
+}
+#nome-do-usuario{
+    font-weight: bold;
+}
+.texto-inglês{
+    font-style: italic;
+}
