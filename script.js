@@ -17,6 +17,19 @@ console.log(linguagens[2])  // “C”
 console.log(linguagens[3])  // “C++”
 
 const item = document.querySelector("#lista");
-item.textContent =linguagens[1]
+item.textContent =linguagens;
+
+let aluno1 = {
+  nome: "Gabriel",
+  idade: 13,
+  anoLetivo: "2ºsérie",
+  materiasFavoritas: ["Geografia","Programação","Arte"]
+}
+
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome +","+" " +aluno1.idade +" " + "anos";
+
+
+
 
 
